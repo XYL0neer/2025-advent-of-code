@@ -1,3 +1,3 @@
 export function readInput(path: string) {
-  return Deno.readTextFileSync(path);
+  return Deno.readTextFileSync(path).trim();
 }
